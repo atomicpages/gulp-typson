@@ -14,7 +14,7 @@ In your `gulpfile.js`
 
 ~~~js
 const gulp = require('gulp');
-const typson = require('gulp-typson);
+const typson = require('gulp-typson');
 
 gulp.task('typson', function () {
 	return gulp.src('demo/*.ts')
@@ -28,7 +28,7 @@ Want to merge all JSON files into one?
 ~~~js
 const gulp = require('gulp');
 const concat = require('gulp-concat-json');
-const typson = require('gulp-typson);
+const typson = require('gulp-typson');
 
 gulp.task('default', function () {
 	return gulp.src('demo/*.ts')
