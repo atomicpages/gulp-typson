@@ -1,0 +1,17 @@
+{
+    "name": "gulp-typson",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/atomicpages/gulp-typson.git",
+    "author": "Dennis Thompson <djtthompson@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-concat-json": "^1.0.0"
+    },
+    "dependencies": {
+        "gulp-util": "^3.0.8",
+        "through2": "^2.0.3",
+        "typson": "^0.6.0"
+    }
+}
